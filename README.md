@@ -1,2 +1,2 @@
 # website
-Official web interface of Tiger Technologies.
+Official website of Tiger Technologies.

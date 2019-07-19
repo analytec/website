@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Home | Greenblox</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+header {
+	color: white;
+	background-image: url(/images/background.jpg);
+};
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+.w3-top {
+	background-color: rgba(255,255,255, 0.6);
+	color: black;
+}
+
+.parallax {
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.face {
+	width: 150px;
+	height: 150px;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.iconbox {
+    height: 100px;
+}
+.iconbox > div {
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+}
+.iconbox p {
+    margin: 0;
+	color:white;
+	font-weight: bold;
+	background-color: rgba(66, 244, 146, 0.6);
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+#team {
+	background-image: url(/images/tech.jpg);
+	background-size: cover;
+}
+
+#mission {
+	background-image: url(/images/pollution.jpg);
+	background-size: cover;
+}
+
+#contact {
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+	<a href="#mission" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Mission</a>
+    <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Our Team</a>
+	<a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-center parallax" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo" style="background-color: rgba(66, 244, 146, 0.6);">GREENBLOX</h1>
+</header>
+
+<!-- First Grid - Mission -->
+<div class="w3-row-padding w3-padding-64 w3-container parallax" id="mission">
+  <div class="w3-content">
+    <center>
+    <div>
+      <h2 style="color:white; background-color: rgba(66, 244, 146, 0.6);">THE GREENBLOX MISSION</h2>
+      <h3 style="background-color: rgba(66, 244, 146, 0.6);" class="w3-padding-32">
+        Greenblox uses IoT devices to collect real-time pollution data from Smart Cities in various countries.
+        After measuring this data against the goals these countries pledged at the Paris Climate Agreement, Greenblox
+        uses a blockchain architecture to reward the countries that best meet their stated goals with "carbon tokens." These tokens
+        can then be converted into tangible terms, such as World Bank loans and UN influence.
+      </h3>
+    </div>
+    </center>
+  </div>
+</div>
+
+
+<!-- Second Grid - Team -->
+<div class="w3-row-padding w3-padding-64 w3-container parallax" id="team">
+  <div class="w3-content">
+  <center>
+    <div>
+      <h2 style="color:white; background-color: rgba(66, 244, 146, 0.6);">THE GREENBLOX TEAM</h2>
+      <h3 style="background-color: rgba(66, 244, 146, 0.6);" class="w3-padding-32">
+	  	We are a group of tech innovators based in New York City and Silicon Valley, who hope to harness
+		the power of IoT, blockchain, and AI to aid the global environmental movement.
+	  </h3>
+	</div>
+	<div class="nowrap iconbox">
+		<div>
+			<img src="/images/kushan.jpeg" class="rounded face">
+			<p>Kushan Singh</p>
+		</div>
+		<div>
+			<img src="/images/kavya.jpg" class="rounded face">
+			<p>Kavyashree U.B.</p>
+		</div>
+		<div>
+			<img src="/images/srihari.jpg" class="rounded face">
+			<p>Srihari Nanniyur</p>
+		</div>
+		<div>
+			<img src="/images/meigy.jpg" class="rounded face">
+			<p>Meigy Ulina</p>
+		</div>
+  	</div>
+  </center>
+  </div>
+</div>
+
+<div class="w3-container w3-center  w3-green w3-padding-64" id="contact">
+    <h1 class="w3-margin w3-xlarge">To learn more, contact us at <a href="mailto:greenbloxofficial@gmail.com">greenbloxofficial@gmail.com</a>.</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+var isMobile = /iPhone|iPod|Android/i.test(navigator.userAgent);
+console.log(isMobile);
+if (isMobile) {
+	window.location.href = "/mobile";
+}
+</script>
+
+</body>
+</html>

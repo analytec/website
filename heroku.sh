@@ -1,4 +1,4 @@
-heroku git:remote -a website
+heroku git:remote -a analytec-info
 git add .
 git commit -m "update"
 git push origin master
